@@ -10,3 +10,13 @@ ul, ol {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'PalanquinDark', sans-serif;
 }
+
+header {
+    height: 128px;
+    background-color: #E76C1F;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}

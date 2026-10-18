@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'PalanquinDark';
+    src: url('../assets/fonts/PalanquinDark/PalanquinDark-Regular.ttf') format('woff2');
+}
+
+@font-face {
+    font-family: 'Palanquin';
+    src: url('../assets/fonts/Palanquin/Palanquin-Regular.ttf') format('woff2');
+}
+

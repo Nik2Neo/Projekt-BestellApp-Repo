@@ -4,6 +4,10 @@ img, svg {
     height: auto;
 }
 
+.hero {
+    position: relative;
+}
+
 .hero-img {
     width: 100%;
     height: 508px;
@@ -11,13 +15,15 @@ img, svg {
 }
 
 .logo-burger-img {
-    position: relative;
+    position: absolute;
     justify-self: center;
 
     height: 200px;
     width: 200px;    
-        bottom: 124px;
+    margin-top: -124px;
+    margin-bottom: 24px;
 
     border: 13px #FDEADC solid;
     border-radius: 200px;
+    box-shadow: 2px 4px 4px 0px #00000040;
 }

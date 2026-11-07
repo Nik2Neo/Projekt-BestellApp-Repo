@@ -1,8 +1,11 @@
+/* content-headline */
+
 .content-headline {
     display: flex;
     justify-content: center;
     align-items: center;
 
+    margin-top: 104px;
     gap: 24px;
 }
 
@@ -16,4 +19,10 @@
 
 .content-headline-rating-number {
     font-size: 18px;
+}
+
+.content-headline-description {
+    justify-self: center;
+
+    margin-top: 32px;
 }

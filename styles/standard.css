@@ -24,15 +24,15 @@ ul, ol {
     list-style: none;
 }
 
-p {
-    font-family: 'Palanquin', sans-serif;
-}
-
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'PalanquinDark', sans-serif;
     line-height: 1;
 }
 
 h1 {
+    font-family: 'PalanquinDark', sans-serif;
     font-size: 48px;
+}
+
+h3 {
+    font-size: 24px;
 }

@@ -1,0 +1,19 @@
+.content-headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 24px;
+}
+
+.content-headline-rating {
+    font-size: 20px;
+    padding: 0 16px;
+
+    background-color: #FACAAC;
+    align-self: flex-end;
+}
+
+.content-headline-rating-number {
+    font-size: 18px;
+}

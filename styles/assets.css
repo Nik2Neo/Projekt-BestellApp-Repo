@@ -3,3 +3,21 @@ img, svg {
     max-width: 100%;
     height: auto;
 }
+
+.hero-img {
+    width: 100%;
+    height: 508px;
+    object-fit: cover;
+}
+
+.logo-burger-img {
+    position: relative;
+    justify-self: center;
+
+    height: 200px;
+    width: 200px;    
+        bottom: 124px;
+
+    border: 13px #FDEADC solid;
+    border-radius: 200px;
+}

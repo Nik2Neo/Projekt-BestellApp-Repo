@@ -11,8 +11,8 @@ html {
 
 body {
     min-height: 100vh;
-    line-height: 1.5;
     font-family: 'Palanquin', sans-serif;
+    color: #363534;
 }
 
 a {
@@ -24,16 +24,15 @@ ul, ol {
     list-style: none;
 }
 
+p {
+    font-family: 'Palanquin', sans-serif;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'PalanquinDark', sans-serif;
+    line-height: 1;
 }
 
-header {
-    height: 128px;
-    background-color: #E76C1F;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
+h1 {
+    font-size: 48px;
 }

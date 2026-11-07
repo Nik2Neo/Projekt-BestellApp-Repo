@@ -8,3 +8,6 @@
     src: url('../assets/fonts/Palanquin/Palanquin-Regular.ttf') format('woff2');
 }
 
+.text-orange {
+    color: #E76C1F;
+}

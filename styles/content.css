@@ -30,6 +30,10 @@
 
 /* content-food */
 
+.content-food-menu {
+    margin-bottom: 64px;
+}
+
 .content-food-menu-headline {
     display: flex;
     align-items: center;
@@ -37,20 +41,21 @@
     height: 60px;
     background-color: #E76C1F;
 
-    padding-left: 10%;
+    padding-left: 25%;
     gap: 32px;
 }
 
 .content-food-menu-dish {
     display: flex;
-    justify-content: space-between;
     
     background-color: #FDEADC;
 
     border-radius: 24px;
     
+    gap: 16px;
     padding: 12px;
-    margin-left: 15%;
+    margin-left: 23%;
+    margin-right: 23%;
     margin-top: 32px;
 
     max-width: 750px;
@@ -58,13 +63,15 @@
 }
 
 .content-food-menu-dish-content {
-    display: flex;   
+    display: flex;  
+    flex: 1;
 
     gap: 8px;
 }
 
 .content-food-menu-dish-content-text {
     display: flex;
+    flex: 1;
     flex-direction: column;
 
     padding-top: 8px;
@@ -72,10 +79,12 @@
 
     font-size: 16px;
     font-weight: 500;
+
 }
 
 .content-food-menu-dish-content-price {
     display: flex;
+    flex-shrink: 0;
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
@@ -84,6 +93,7 @@
     padding-right: 16px;
 
     height: 80%;
+    width: 35%;
 }
 
 .content-food-menu-dish-content-price button {

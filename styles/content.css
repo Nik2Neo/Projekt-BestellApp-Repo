@@ -25,4 +25,75 @@
     justify-self: center;
 
     margin-top: 32px;
+    margin-bottom: 96px;
+}
+
+/* content-food */
+
+.content-food-menu-headline {
+    display: flex;
+    align-items: center;
+
+    height: 60px;
+    background-color: #E76C1F;
+
+    padding-left: 10%;
+    gap: 32px;
+}
+
+.content-food-menu-dish {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #FDEADC;
+
+    border-radius: 24px;
+    
+    padding: 12px;
+    margin-left: 15%;
+    margin-top: 32px;
+
+    max-width: 750px;
+    height: auto;
+}
+
+.content-food-menu-dish-content {
+    display: flex;   
+
+    gap: 8px;
+}
+
+.content-food-menu-dish-content-text {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 8px;
+    gap: 8px;
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.content-food-menu-dish-content-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    padding-top: 8px;
+    padding-right: 16px;
+
+    height: 80%;
+}
+
+.content-food-menu-dish-content-price button {
+    font-size: 16px;
+    font-weight: 600;
+
+    padding: 6px;
+    border: none;
+    border-radius: 16px;
+
+    background-color: #FFFFFF;
+    color: #E76C1F;
 }

@@ -27,3 +27,8 @@ img, svg {
     border-radius: 200px;
     box-shadow: 2px 4px 4px 0px #00000040;
 }
+
+.food-img {
+    width: 90px;
+    height: auto;
+}

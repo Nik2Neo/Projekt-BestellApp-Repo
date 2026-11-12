@@ -5,11 +5,12 @@ img, svg {
 }
 
 .hero {
+    width: 1440px;
     position: relative;
 }
 
 .hero-img {
-    width: 100%;
+    width: 1440px;
     height: 508px;
     object-fit: cover;
 }

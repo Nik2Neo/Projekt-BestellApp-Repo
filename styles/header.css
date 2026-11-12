@@ -6,10 +6,15 @@ header {
 .header-inner {
     display: flex;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: space-between;   
+    justify-self: center;
+    max-width: 1440px;
+    width: 100%;
+
+    padding-left: 3%;
+    padding-right: 2%;
     
-    padding-left: 8%;
-    padding-right: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
     height: 100%;
-    max-width: 100%;
 }

@@ -7,12 +7,20 @@
 html {
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
 }
 
 body {
     min-height: 100vh;
+    max-width: 100vw;
     font-family: 'Palanquin', sans-serif;
     color: #363534;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
 }
 
 a {
@@ -30,6 +38,12 @@ a:hover {
 
 ul, ol {
     list-style: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1, h2, h3, h4, h5, h6 {

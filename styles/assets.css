@@ -5,6 +5,7 @@ img, svg {
 }
 
 .hero {
+    margin: 0 auto;
     width: 1440px;
     position: relative;
 }

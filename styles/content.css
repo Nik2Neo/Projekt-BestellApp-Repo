@@ -1,4 +1,4 @@
-.content {
+.content {    
     width: calc(100% - 408px);
     flex-grow: 1;
 }
@@ -48,7 +48,7 @@
 
     padding-left: 25%;
     gap: 32px;
-    width: 100vw;
+    width: 100vw;   
 }
 
 .content-food-menu-dish {

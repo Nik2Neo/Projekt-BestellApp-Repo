@@ -69,6 +69,12 @@ h4 {
     font-weight: 600;
 }
 
+h5 {
+    color: #FDEADC;
+    font-size: 32px;
+    font-weight: 700;
+}
+
 .unbold {
     font-weight: 400;
 }

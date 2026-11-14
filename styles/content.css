@@ -1,3 +1,8 @@
+.content {
+    width: calc(100% - 408px);
+    flex-grow: 1;
+}
+
 /* content-headline */
 
 .content-headline {

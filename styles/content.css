@@ -37,18 +37,32 @@
 
 .content-food-menu {
     margin-bottom: 64px;
+    width: 100%;
 }
 
 .content-food-menu-headline {
     display: flex;
+    position: relative;
+    isolation: isolate;
     align-items: center;
 
     height: 60px;
-    background-color: #E76C1F;
 
     padding-left: 25%;
     gap: 32px;
     width: 100vw;   
+}
+
+.content-food-menu-headline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -100vw;
+    right: -100vw;
+
+    background-color: #E76C1F;
+    z-index: -1;
 }
 
 .content-food-menu-dish {
@@ -60,9 +74,7 @@
     
     gap: 16px;
     padding: 12px;
-    margin-left: 23%;
-    margin-right: 23%;
-    margin-top: 32px;
+    margin: 32px auto 0;
 
     max-width: 750px;
     height: auto;

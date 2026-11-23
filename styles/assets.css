@@ -34,3 +34,22 @@ img, svg {
     width: 90px;
     height: auto;
 }
+
+
+@media(max-width: 768px) {
+    .hero {
+        margin: 24px;
+    }
+
+    .hero-img {
+        border-radius: 16px;
+        height: 600px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 25%;
+    }
+
+    .food-img {
+        width: 60px;
+    }
+}

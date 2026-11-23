@@ -125,3 +125,28 @@
     background-color: #FFFFFF;
     color: #E76C1F;
 }
+
+
+@media(max-width: 768px) {
+    .content-headline {
+        flex-direction: column-reverse;
+    }
+
+    .content-headline-rating {
+        align-self: center;
+    }
+
+    .content-headline-description {
+        margin-top: 16px;
+        margin-bottom: 132px;
+
+    }
+    .content-food-menu-headline {
+        flex-direction: column;
+        justify-content: flex-end;
+
+        padding: 0;
+        gap: 0px;
+        padding-bottom: 16px;
+    }
+}

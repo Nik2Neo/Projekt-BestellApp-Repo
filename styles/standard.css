@@ -80,3 +80,18 @@ h5 {
 .unbold {
     font-weight: 400;
 }
+
+
+@media(max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+}

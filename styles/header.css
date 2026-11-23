@@ -18,3 +18,14 @@ header {
     margin-right: 8%;
     height: 100%;
 }
+
+@media(max-width: 768px) {
+    .tablet-hidden {
+        display: none;
+    }
+
+    header {
+        height: 80px;
+    }
+}
+

@@ -29,3 +29,10 @@
     text-align: center;
     line-height: 120%;
 }
+
+
+@media(max-width: 768px) {
+    .basket-wrapper {
+        display: none;
+    }
+}

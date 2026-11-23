@@ -149,4 +149,30 @@
         gap: 0px;
         padding-bottom: 16px;
     }
+
+    .content-food-menu-dish {
+        flex-direction: column;
+        margin: 24px;
+    }
+
+    .content-food-menu-dish img {
+        height: 250px;
+        object-fit: cover;
+        border-radius: 24px;
+    }
+
+    .content-food-menu-dish-content {
+        flex-direction: column;
+    }
+
+    .content-food-menu-dish-content-text {
+        font-size: 24px;
+    }
+
+    .content-food-menu-dish-content-price {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 24px;
+    }
 }

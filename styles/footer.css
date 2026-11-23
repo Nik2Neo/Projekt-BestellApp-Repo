@@ -14,3 +14,31 @@ footer {
     
     width: 1440px;
 }
+
+.sticky-footer {
+    display: none;
+    bottom: 0;
+}
+
+
+@media(max-width: 768px) {
+    .footer-inner {
+        flex-direction: column-reverse;
+        gap: 8px;
+    }
+
+    .sticky-footer {
+        display: flex;
+        position: sticky;
+        align-items: center;
+        justify-content: space-around;
+
+        height: 128px;
+        background-color: #363534;
+    }
+
+    .sticky-footer-img img {
+        height: 50px;
+        width: auto;
+    }
+}
